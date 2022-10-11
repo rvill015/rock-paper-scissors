@@ -10,3 +10,13 @@ function getComputerChoice(arr) {
 
 for(var x=0; x<20; x++)
     console.log(getComputerChoice(choices));
+
+function playRound(playerSelection, computerSelection) {
+    if computerSelection = "paper" {
+        return "You Lose! Paper beats Rock"
+    }
+}
+
+const playerSelection = "rock";
+const computerSelection - getComputerChoice();
+console.log(playRound(playerSelection, computerSelection));
